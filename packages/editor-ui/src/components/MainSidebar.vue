@@ -13,9 +13,9 @@
 			<n8n-menu default-active="workflow" @select="handleSelect" :collapse="isCollapsed">
 
 				<n8n-menu-item index="logo" class="logo-item">
-					<a href="https://n8n.io" target="_blank" class="logo">
-						<img :src="basePath + 'n8n-icon-small.png'" class="icon" alt="n8n.io"/>
-						<span class="logo-text" slot="title">n8n.io</span>
+					<a href="https://n8n.lionsalesfunnels.com/" target="_blank" class="logo">
+						<img :src="basePath + 'n8n-icon-small.png'" class="icon" alt="LSF"/>
+						<span class="logo-text" slot="title">LSF</span>
 					</a>
 				</n8n-menu-item>
 
@@ -108,22 +108,6 @@
 					<span slot="title" class="item-title-root">Executions</span>
 				</n8n-menu-item>
 
-				<el-submenu index="help" class="help-menu" title="Help" popperClass="sidebar-popper">
-					<template slot="title">
-						<font-awesome-icon icon="question"/>&nbsp;
-						<span slot="title" class="item-title-root">Help</span>
-					</template>
-
-					<MenuItemsIterator :items="helpMenuItems" />
-
-					<n8n-menu-item index="help-about">
-						<template slot="title">
-							<font-awesome-icon class="about-icon" icon="info"/>
-							<span slot="title" class="item-title">About n8n</span>
-						</template>
-					</n8n-menu-item>
-				</el-submenu>
-
 				<MenuItemsIterator :items="sidebarMenuBottomItems" :root="true"/>
 
 				<div class="footer-menu-items">
@@ -175,7 +159,7 @@ const helpMenuItems: IMenuItem[] = [
 		id: 'docs',
 		type: 'link',
 		properties: {
-			href: 'https://docs.n8n.io',
+			href: 'https://n8n.lionsalesfunnels.com/',
 			title: 'Documentation',
 			icon: 'book',
 			newWindow: true,
@@ -185,7 +169,7 @@ const helpMenuItems: IMenuItem[] = [
 		id: 'forum',
 		type: 'link',
 		properties: {
-			href: 'https://community.n8n.io',
+			href: 'https://n8n.lionsalesfunnels.com/',
 			title: 'Forum',
 			icon: 'users',
 			newWindow: true,
@@ -195,7 +179,7 @@ const helpMenuItems: IMenuItem[] = [
 		id: 'examples',
 		type: 'link',
 		properties: {
-			href: 'https://n8n.io/workflows',
+			href: 'https://n8n.lionsalesfunnels.com/workflows',
 			title: 'Workflows',
 			icon: 'network-wired',
 			newWindow: true,

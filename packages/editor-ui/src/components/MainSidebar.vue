@@ -14,8 +14,8 @@
 
 				<n8n-menu-item index="logo" class="logo-item">
 					<a href="https://n8n.lionsalesfunnels.com/" target="_blank" class="logo">
-						<img :src="basePath + 'n8n-icon-small.png'" class="icon" alt="LSF"/>
-						<span class="logo-text" slot="title">LSF</span>
+						<img :src="basePath + 'n8n-icon-small.png'" class="icon" alt="LSF SMS"/>
+						<span class="logo-text" slot="title">LSF SMS</span>
 					</a>
 				</n8n-menu-item>
 

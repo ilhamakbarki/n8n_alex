@@ -20,11 +20,11 @@ export const titleChange = Vue.extend({
 				icon = '▶️';
 			}
 
-			window.document.title = `LSF SMS - ${icon} ${workflow}`;
+			window.document.title = `BOOM-O-RANG - ${icon} ${workflow}`;
 		},
 
 		$titleReset() {
-			document.title = `LSF SMS - Workflow Automation`;
+			document.title = `BOOM-O-RANG - Workflow Automation`;
 		},
 
 	},

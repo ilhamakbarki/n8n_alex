@@ -12,10 +12,10 @@
 			</div>
 			<n8n-menu default-active="workflow" @select="handleSelect" :collapse="isCollapsed">
 
-				<n8n-menu-item index="logo" class="logo-item">
+				<n8n-menu-item index="logo" class="logo-item" >
 					<a href="https://n8n.lionsalesfunnels.com/" target="_blank" class="logo">
-						<img :src="basePath + 'n8n-icon-small.png'" class="icon" alt="LSF SMS"/>
-						<span class="logo-text" slot="title">LSF SMS</span>
+						<img :src="basePath + 'n8n-icon-small.png'" class="icon" alt="BOOM-O-RANG" height="70"/>
+						<span class="logo-text" slot="title">BOOM-O-RANG</span>
 					</a>
 				</n8n-menu-item>
 

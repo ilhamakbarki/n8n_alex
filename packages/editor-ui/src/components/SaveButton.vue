@@ -2,6 +2,7 @@
 	<span :class="$style.container">
 		<span :class="$style.saved" v-if="saved">{{ savedLabel }}</span>
 		<n8n-button
+			:class="$style.button"
 			v-else
 			:label="isSaving ? savingLabel : saveLabel"
 			:loading="isSaving"
@@ -54,5 +55,9 @@ export default Vue.extend({
 	line-height: 12px;
 	text-align: center;
 	padding: var(--spacing-2xs) var(--spacing-xs);
+}
+
+.button {
+	background-color:#000;
 }
 </style>
